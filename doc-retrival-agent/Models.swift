@@ -25,6 +25,7 @@ struct DocumentSource: Identifiable, Codable {
 }
 
 // MARK: - API Request/Response Models
+
 struct ChatRequest: Codable {
     let message: String
     let context: String?
