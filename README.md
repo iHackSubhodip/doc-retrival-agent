@@ -1,5 +1,6 @@
 # RAG Agent iOS App
 
+
 A production-ready Retrieval-Augmented Generation (RAG) agent built with iOS Swift and SwiftUI, featuring real-time document retrieval using Vectorize.io and weather information tools. 
 
 ## ✨ Features
