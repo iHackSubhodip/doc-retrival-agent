@@ -135,14 +135,15 @@ Authorization: Bearer {your-openai-key}
 
 ## 🎯 Configuration Examples
 
-### Your Configuration Values
-Based on your `.env.local` file:
+### Example Configuration Format
 
 ```
-OpenAI API Key: sk-proj-SGfQAaBWLpL15XSAW0-DMjF6TNhioENsa2FjzpWTVLxwEGa79N7i
-Vectorize Token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MzQ2OTY4NzEsImV4cCI6MTc2NjIzMjg3MSwic3ViIjoiNTI3ZDlhMjctYzM0YS00ZDBhLThmZGUtMTEyOWE1N2ViNWI4IiwiYXVkIjoidmVjdG9yaXplLmlvIiwiaXNzIjoidmVjdG9yaXplLmlvIiwianRpIjoiYWlwZmEzMDEtOTYxNy00YjAzLWFjYmQtZjk5ZGE4YWJmYmJlIn0.eyJwaXBlbGluZV9pZCI6ImFpcGZhMzAxLTk2MTctNGIwMy1hY2JkLWY5OWRhOGFiZmJiZSIsIm9yZ2FuaXphdGlvbl9pZCI6IjUyN2Q5YTI3LWMzNGEtNGQwYS04ZmRlLTExMjlhNTdlYjViOCIsInBlcm1pc3Npb25zIjpbInJldHJpZXZhbCIsInVwc2VydCJdfQ
-Vectorize URL: https://api.vectorize.io/v1/org/c0f1588c-9217-46c2-8036-2c36b056eb6a/pipelines/aipfa301-9617-4b03-acbd-f99da8abfbbe/retrieval
+OpenAI API Key: sk-proj-[YOUR_ACTUAL_KEY_HERE]
+Vectorize Token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.[YOUR_ACTUAL_TOKEN_HERE]
+Vectorize URL: https://api.vectorize.io/v1/org/[YOUR_ORG_ID]/pipelines/[YOUR_PIPELINE_ID]/retrieval
 ```
+
+**Note**: Replace the placeholder values with your actual credentials. Never commit real API keys to version control.
 
 ### Weather API Setup (Optional)
 1. Sign up at [OpenWeatherMap](https://openweathermap.org/api)
