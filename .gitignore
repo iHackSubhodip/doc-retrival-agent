@@ -60,3 +60,18 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Security - Never commit secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.pem
+*.key
+**/secrets/**
+**/*secret*
+**/*key*
+**/*password*
+**/*token*
+**/config/secrets.yml
+**/config/database.yml
