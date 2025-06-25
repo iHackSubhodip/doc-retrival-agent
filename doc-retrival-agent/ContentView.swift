@@ -277,6 +277,8 @@ struct ContentView: View {
                         .focused($isInputFocused)
                         .lineLimit(1...4)
                         .disabled(!viewModel.isConfigured)
+                        .accessibilityIdentifier("chatInputField")
+                        .accessibilityLabel("Chat input field")
                         .onSubmit {
                             if !viewModel.currentMessage.isEmpty && viewModel.isConfigured {
                                 viewModel.sendMessage()
